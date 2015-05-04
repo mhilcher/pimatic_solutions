@@ -13,13 +13,16 @@ It also runs in the background and saves the configuration to the card.
 Here you find 3 files you might need:
 
 - BatteryStatusSender.apk
+
   App for android for sending batterystatus of an android device to a script on a server
 
 - io.cordova.BatteryStatusSender.config.json
+
   Example for a configuration, change it with a text editor and place it into the root directory of your internal sd card
   Then the application will read the configuration from that file.
 
 - puvar.php
+
   Example for a php script which sends the variable posted by the app to pimatic 
 
 I cannot garantee that the apk runs on every android version, I tested it with CyanogenMod 10 (Android 4.2.2), Android 4.4 and 5
